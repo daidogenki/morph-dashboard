@@ -1,17 +1,24 @@
-# Welcome to Morph
+## Morph Dashboard
 
-Morph is a Python + Markdown framework for building internal AI apps.
+<DataTable loadData="get_user_data" height={400} />
+<DataTable loadData="get_deploy_data" height={400} />
+<DataTable loadData="get_team_user_mapping" height={400} />
+<DataTable loadData="get_database_users" height={400} />
+<DataTable loadData="get_team" height={400} />
+<DataTable loadData="get_database" height={400} />
 
-## 📚 Resources
-
-- [🚀 Deploy Now](https://app.morph-data.io)
-- [📖 Documentation](https://docs.morph-data.io)
-- [💻 GitHub](https://github.com/morph-data/morph)
-
-## 🛠️ Getting started
-
-### Tutorials
-
-- [🚀 Quickstart for AI App](https://docs.morph-data.io/docs/en/quickstart/building-app)
-- [📊 Dashboard tutorial](https://docs.morph-data.io/docs/en/develop/tutorials/plotly)
-- [📈 Pygwalker tutorial](https://docs.morph-data.io/docs/en/develop/tutorials/pygwalker)
+<Grid cols="1">
+  <div>
+    <Embed loadData="test" height={400} />
+  </div>
+</Grid>
+<Grid cols="1">
+  <div>
+    <Embed loadData="user_transition" height={600} />
+  </div>
+</Grid>
+<Grid cols="1">
+  <div>
+    <Embed loadData="percentage_of_people_deploying" height={400} />
+  </div>
+</Grid>
