@@ -33,3 +33,4 @@ You can set it up by running the following command:
 ```bash
 morph config
 ```
+# morph-dashboard
